@@ -2,6 +2,12 @@ from lista.lista_pieza import lista_piezas
 mi_tablero=lista_piezas()
 
 
+def mostrar_Documentarion():
+    print("Julio Samuel Isaac Lima Donis")
+    print("202200002")
+    print("Introducción a la Programación y Computación 2 sección D")
+    print("Ingenieria en Ciencias y Sistemas")
+    print("4to semestre")
 
 
 def mostrar_menu2(fila,columna):
@@ -83,15 +89,19 @@ def mostrar_menu():
   print("")
   print("-----------------------Menú -----------------------")
   print("1. Configurar tablero")
-  print("2. Salir")
+  print("2. mostrar Documentarion")
+  print("3. Salir")
   opcion =input("Ingrese una opción válida del menú: ")
   while True:
     if opcion=="1":
       print("")
-      configuracion_tablero()
+      mostrar_Documentarion()
       break
     elif opcion=="2":
       print("Hasta la próxima")
+      break      
+    elif opcion=="3":
+      print("Hasta la próxima")      
       break
     else:
       print("Indique una opción válida")

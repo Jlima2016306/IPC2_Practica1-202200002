@@ -4,6 +4,10 @@ from classs.pieza import pieza
 import sys
 import os
 
+
+
+
+
 class lista_piezas:
   def __init__(self):
     self.primero=None
